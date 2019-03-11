@@ -3,128 +3,145 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Alejandro Chavez
     tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: alex.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: chavezzz@gmail.com
+    phone: (+52)33 3199 3262
+    website: alexkilla.github.io/ #do not add http://
+    linkedin: alexkilla
+    github: alexkilla
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@alexkilla'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
-        link:
+      - item: Music
+        link: https://open.spotify.com/user/1221178289?si=MNtlEDffRS6iV95N1k4KMQ
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Making Music (Playing guitar over backtracks and improvising)
         link:
 
 career-profile:
-    title: Career Profile
+    title: Next 5 years.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      As a software engineer my main goal is to increase my
+      skillset and my co-workers in any technology in a place where ***people care about the product,***
+      engineers care about ***code craftmanship*** and ***delivering the best product*** is a primary focus.
+      Help make the product scale in reach to the outside and increase the quality of
+      code and architecture by colaborating with teams accross company.
+      Looking for a place where communication can help all people grow both
+      personally and as a professional.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: BS in Multimedia Engineering
+      university: Universidad La Salle Noroeste
+      time: 2005 - 2010
+      details:
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer
+      time: Dec 2018 - Present
+      company: Nearsoft
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Working as a software engineer for internal products, client scouting and tech scouting.
 
-          - Bullet point
-          - Bullet point
+        Technologies used during this stage
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Ruby on Rails ~> 5.2, ruby 2.5
+          - Rspec, Capybara.
+          - Javascript (Jquery, google api)
+          - Spring boot (mvc, web, jpa integrations among others)
+          - Postgresql 9.6, docker.
+
+    - role: Java Software Engineer
+      time: Oct 2014 - Dec 2018 (4 years)
+      company: Nearsoft, Switchfly
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Full stack software engineer responsible to create features, fix bugs and test
+        modules of a large saas application deployed by international companies in the
+        traveling sector following OWASP secure coding guidelines.
 
-          - Bullet point
-          - Bullet point
+        Implemented new payment workflow (comunication logic, retries, late payments) for
+        some payment gateways that was included for several clients this helped to
+        ***start charging*** from pinpad physical devices.
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Created value by helping the company reach ***business partners***
+        by stablishing communication via webservices that provided a framework for business to
+        start ***operations and sales.***
+
+        R&D team experience was to provide new features for the upcoming platform such as
+        ***seat maps display and charging***, ***ancillaries avail***, ***new page flows***, new front end
+        reusable components.
+
+        Articulated technical risks, trade offs and risks to stakeholders and managers.
+
+        Written automated test for big features.
+
+        Technologies and skills:
+
+          - Java 7,8 (streams, optionals)
+          - Spring (Dependency injection, web)
+          - WebServices (third party communication, payment authorization)
+          - Backend tasks (payment workflows, validations, repos, scheduled tasks, mailing jobs)
+          - Repositories JDBC, Hibernate
+          - Unit testing using Junit, hamcrest, easymock, parametric tests.
+          - Testing Automation with selenium.
+          - Javascript (Jquery, Emberjs)
+          - Templating (handlebars, Html5, bootstrap, css, scss)
+          - Docker (postgres, memcache)
+
+    - role: Java Developer
+      time: 2011 - 2014
+      company: Hewlett-Packard, Guadalajara
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Working in a desktop solution that produces technical documentation for
+        many businesses (almost all) and products  in the company.
 
-          - Bullet point
-          - Bullet point
+        Java Standard 6.0, swing based app, processing all document transformation
+        requests, command line based tool as well.
+
+        XSLT and XSL-FO for xml transformations to PDF, HTML, PPTX some other XML-based internal formats.
+        Functional, performance and regression testing, No-qa team, X-dev testing, including creation of test cases, suites, etc.
+        Other tech involved SVN, JUnit 4.0, ant 1.8.
+
+        Created value by adding new PPTX format to the transformation service.
+
+        Agile software development methodologies (tool called rallyDev), distributed team between Mexico and USA.
+
+        Technologies used in this stage:
+
+          - Java 6
+          - XSlT, XSL-FO
+          - Junit 4
+          - Swing UI Java library
+          - Docbook
+
+    - role: Java Developer
+      time: Sept 2010 - Sept 2011
+      company: Tata consultancy services, Guadalajara
+      details: |
+        Real estate webapp.
+
+        Implementing java enterprise frameworks like hibernate, struts2 and spring for configuration and beans injection.
+
+        Working with J2EE, JSP, JSTL, javascript, AJAX technologies for web based applications using servers like tomcat and jboss.
 
 projects:
     title: Projects
@@ -178,23 +195,20 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Java (Core, Spring)
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Javascript
+        level: 75%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Ruby
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 55%
+
+      - name: HTML5 & CSS
+        level: 65%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
