@@ -66,6 +66,7 @@ experiences:
 
           - Ruby on Rails ~> 5.2, ruby 2.5
           - Rspec, Capybara.
+          - Google api for drive and calendar
           - Javascript (Jquery, google api)
           - Spring boot (mvc, web, jpa integrations among others)
           - Postgresql 9.6, docker.
