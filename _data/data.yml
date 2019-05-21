@@ -56,6 +56,22 @@ education:
       details:
 
 experiences:
+  - role: Software Engineer
+    time: Feb 2018 - Present
+    company: Nearsoft, Crew
+    details: |
+      This is a chat client for front line employees with several more functionalities to communicate shifts, calendars, rosters, etc.
+
+      My main responsabilities in this project is to work on add-ons at the organization and enterprise level to connect with third party providers.
+
+      Technologies used during this stage
+
+        - Java, Kotlin.
+        - Gradle.
+        - Docker for running services (microservice environment).
+        - Spring mvc, security, webservices.
+        - Dynamodb, activemq, redis, producer-consumer paradigmn to connect services.
+
     - role: Software Engineer
       time: Dec 2018 - Present
       company: Nearsoft
