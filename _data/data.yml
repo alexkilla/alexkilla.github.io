@@ -57,7 +57,7 @@ education:
 
 experiences:
     - role: Software Engineer
-      time: Feb 2018 - Present
+      time: Feb 2019 - Present
       company: Nearsoft, Crew
       details: |
         This is a chat client for front line employees with several more functionalities to communicate shifts, calendars, rosters, etc.
