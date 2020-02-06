@@ -57,8 +57,45 @@ education:
 
 experiences:
     - role: Software Engineer
-      time: Feb 2019 - Present
-      company: Nearsoft, Crew
+      time: Oct 2019 - Present
+      company: Task Rabbit IKEA team.
+      logo: ""
+      details: |
+        Developing and maintaing services(APIs, web client, Backend) where taskers are matched to the IKEA stores and provide a wide
+        catalog of services.
+
+        Roles And Responsabilities:
+        As part of the ikea team I'm responsible of delivering production ready features accross prioritized projects like:
+        
+        - Web experiments. Purpose: increase booking rate by providing different experiences to the user.
+        - Ikea Store - TaskRabbit launch for new countries and metros.
+
+        Common Activities:
+        - Daily Standup
+        - Code reviews
+        - Architecture Hour
+        - Retros
+
+        Technologies used during this stage
+
+        BackEnd:
+        
+          - RoR
+          - Sidekiq event bus
+          - Rspec
+          - Mysql
+
+        FrontEnd:
+
+          - React
+          - ES2020
+          - Redux
+          - Style components (SCSS).
+
+    - role: Software Engineer
+      time: Feb 2019 - Aug 2019
+      company: Crew
+      logo: ""
       details: |
         This is a chat client for front line employees with several more functionalities to communicate shifts, calendars, rosters, etc.
 
