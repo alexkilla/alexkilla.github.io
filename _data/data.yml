@@ -39,15 +39,15 @@ sidebar:
         link:
 
 career-profile:
-    title: Next 5 years.
+    title: Experience Summary
     summary: |
-      As a software engineer my main goal is to increase my
-      skill set and my co-workers in any technology in a place where ***people care about the product,***
-      engineers care about ***code craftsmanship*** and ***delivering the best product*** is a primary focus.
-      Help make the product scale in reach to the outside and increase the quality of
-      code and architecture by collaborating with teams across the company.
-      Looking for a place where communication can help all people grow both
-      personally and as a professional.
+      Software Engineer transitioning to Devops Engineer(SRE) or related. I'd like to continue working in infrastructure and cloud computing architecting.
+      - 10+ yrs exp working in the software industry.
+      - 9+ Java Backend exp.
+      - 6+ Javascript Exp(Jquery, ModernJS ES2017+, React)
+      - 2+ RubyOnRails exp.
+      - ~1 Devops Experience(terraform, docker, aws)
+      - 3+ yrs working remotely
 
 education:
     - degree: BS in Multimedia Engineering
@@ -56,8 +56,32 @@ education:
       details:
 
 experiences:
+
+    - role: DevOps Engineer
+      time: March 2019 - Current
+      company: Encora-Beyond Limits
+      logo: ""
+      details: |
+        Refinery Planning Web Application microservices. Including data ingress/pipeline, data streams, AmazonMQ, etc.
+
+        As part of the Devops team I got the followin responsabilities:
+          - Create/Maintain Jenkins CI/CD Pipelines.
+          - Manage AWS using automation tools like terraform.
+          - Create Production environments in AWS.
+          - Create non-prod environments in AWS.
+          - Add Infrastructure State locking thru DynamoDb.
+          - Add/refactor terraform modules.
+          - Create Dockerfiles.
+
+        Technologies:
+          - Terraform
+          - AWS (s3, RDS postgres, ec2, ecs, ecr)
+          - Docker
+          - Java Microservices
+          - Jenkins CI/CD pipelines
+
     - role: Software Engineer
-      time: Oct 2019 - Present
+      time: Oct 2019 - March 2020
       company: Task Rabbit IKEA team.
       logo: ""
       details: |
