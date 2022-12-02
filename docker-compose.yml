@@ -1,0 +1,9 @@
+version: '2.4'
+services:
+  jekyll:
+    image: jekyll-blog
+    volumes:
+      - .:/app
+      - ./_site:/app/_site
+    ports:
+      - '4000:4000'

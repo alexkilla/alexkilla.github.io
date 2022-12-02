@@ -8,13 +8,13 @@ sidebar:
 
     # Profile information
     name: Alejandro Chavez
-    tagline: Full Stack Developer
+    tagline: DevOps Engineer
     avatar: alex.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: chavezzz@gmail.com
     phone: (+52)33 3199 3262
-    website: alexkilla.github.io/ #do not add http://
+    website: alexkilla.dev #do not add http://
     linkedin: alexkilla
     github: alexkilla
     gitlab:
@@ -22,7 +22,7 @@ sidebar:
     twitter: '@alexkilla'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    goodreads: alexkilla
 
     languages:
       - idiom: Spanish
@@ -31,23 +31,28 @@ sidebar:
       - idiom: English
         level: Professional
 
-    interests:
+    personal interests:
       - item: Music
         link: https://open.spotify.com/user/1221178289?si=MNtlEDffRS6iV95N1k4KMQ
 
-      - item: Making Music (Playing guitar over backtracks and improvising)
+      - item: Making Music (Playing guitar, improvising)
         link:
 
 career-profile:
     title: Experience Summary
     summary: |
-      Software Engineer transitioning to Devops Engineer(SRE) or related. I'd like to continue working in infrastructure and cloud computing architecting.
-      - 10+ yrs exp working in the software industry.
-      - 9+ Java Backend exp.
-      - 6+ Javascript Exp(Jquery, ModernJS ES2017+, React)
-      - 2+ RubyOnRails exp.
-      - ~1 Devops Experience(terraform, docker, aws)
-      - 3+ yrs working remotely
+      As an engineer in general, I prefer to work in environments where people is able to learn and grow along with the whole team where feedback is taken as something positive.
+      
+      Technically my focus is in software/infrastructure automation.
+
+      - 2+ years Exp. as Dev/Sec/CloudOps engineer in high consuming data environments.
+      - Background 9+ yrs as Backend/full stack engineer (java, kotlin, react, typescript, ruby).
+      - AWS as main cloud provider.
+      - Terraform for cloud architecture for different environments(stage,dev,prod). 
+      From Route53 domain setup to RDS, kafka, App Load Balancer, Target groups, etc. 
+      - Dockerized environments: docker, docker-compose, kubernetes, Registries(JFrog, ECR)
+      - Looking to increase my experience in Kubernetes.
+      - 4+ yrs working remotely
 
 education:
     - degree: BS in Multimedia Engineering
@@ -58,20 +63,36 @@ education:
 experiences:
 
     - role: DevOps Engineer
-      time: March 2019 - Current
+      time: June 2021 - Current
+      company: Certilytics Inc
+      logo: ""
+      details: |
+        Analytics platform in the health care field where huge amounts of information are consumed and processed to provide customers insight on how to handle medical claims and insurances.
+        
+        Support the different data and software development teams to provide the set of tools needed to run data pipelines, spark programs, apache airflow, etc.
+        Including CI/CD integration, cloud infrastructure and automation of repetitive tasks.
+
+        Technologies:
+          - Amazon Web Services (s3,RDS, ECS, EC2, CodeBuild)
+          - Docker, Kubernetes-> Rancher(RKE), docker-compose.
+          - HDFS filesystem, PrestoDB.
+          - Terraform
+          - Jenkins CI/CD pipelines
+          - Azure Devops
+
+    - role: DevOps Engineer
+      time: March 2019 - May 2021
       company: Encora-Beyond Limits
       logo: ""
       details: |
         Refinery Planning Web Application microservices. Including data ingress/pipeline, data streams, AmazonMQ, etc.
 
-        As part of the Devops team I got the followin responsabilities:
+        As part of the Devops team I got the following responsabilities:
           - Create/Maintain Jenkins CI/CD Pipelines.
           - Manage AWS using automation tools like terraform.
-          - Create Production environments in AWS.
-          - Create non-prod environments in AWS.
-          - Add Infrastructure State locking thru DynamoDb.
-          - Add/refactor terraform modules.
-          - Create Dockerfiles.
+          - Create Production/non-production environments in AWS.
+          - Manage infrastructure thru terraform.
+          - Dockerize Dev environments.
 
         Technologies:
           - Terraform
@@ -88,33 +109,20 @@ experiences:
         Developing and maintaing services(APIs, web client, Backend) where taskers are matched to the IKEA stores and provide a wide
         catalog of services.
 
-        Roles And Responsabilities:
         As part of the ikea team I'm responsible of delivering production ready features accross prioritized projects like:
         
         - Web experiments. Purpose: increase booking rate by providing different experiences to the user.
         - Ikea Store - TaskRabbit launch for new countries and metros.
 
         Common Activities:
-        - Daily Standup
-        - Code reviews
-        - Architecture Hour
-        - Retros
-
-        Technologies used during this stage
+        - Daily Standup, Code reviews, Architecture Hour
+        - Retrospective meetings (feedback and action items)
 
         BackEnd:
-        
-          - RoR
-          - Sidekiq event bus
-          - Rspec
-          - Mysql
+          - RoR, Sidekiq (eventBus), Rspec, Mysql
 
         FrontEnd:
-
-          - React
-          - ES2020
-          - Redux
-          - Style components (SCSS).
+          - React, ES2020, Redux, Style components (SCSS).
 
     - role: Software Engineer
       time: Feb 2019 - Aug 2019
@@ -133,21 +141,6 @@ experiences:
           - Spring mvc, security, webservices.
           - Dynamodb, activemq, redis, producer-consumer paradigmn to connect services.
 
-    - role: Software Engineer
-      time: Dec 2018 - Present
-      company: Nearsoft
-      details: |
-        Working as a software engineer for internal products, client scouting and tech scouting.
-
-        Technologies used during this stage
-
-          - Ruby on Rails ~> 5.2, ruby 2.5
-          - Rspec, Capybara.
-          - Google api for drive and calendar
-          - Javascript (Jquery, google api)
-          - Spring boot (mvc, web, jpa integrations among others)
-          - Postgresql 9.6, docker.
-
     - role: Java Software Engineer
       time: Oct 2014 - Dec 2018 (4 years)
       company: Nearsoft, Switchfly
@@ -155,22 +148,6 @@ experiences:
         Full stack software engineer responsible to create features, fix bugs and test
         modules of a large saas application deployed by international companies in the
         traveling sector following OWASP secure coding guidelines.
-
-        Implemented new payment workflow (comunication logic, retries, late payments) for
-        some payment gateways that was included for several clients this helped to
-        ***start charging*** from pinpad physical devices.
-
-        Created value by helping the company reach ***business partners***
-        by stablishing communication via webservices that provided a framework for business to
-        start ***operations and sales.***
-
-        R&D team experience was to provide new features for the upcoming platform such as
-        ***seat maps display and charging***, ***ancillaries avail***, ***new page flows***, new front end
-        reusable components.
-
-        Articulated technical risks, trade offs and risks to stakeholders and managers.
-
-        Written automated test for big features.
 
         Technologies and skills:
 
@@ -189,37 +166,18 @@ experiences:
       time: 2011 - 2014
       company: Hewlett-Packard, Guadalajara
       details: |
-        Working in a desktop solution that produces technical documentation for
-        many businesses (almost all) and products  in the company.
-
+        XSLT and XSL-FO based tool for document transformations from XML to PDF, HTML, PPTX some other XML-based internal formats.
+        
         Java Standard 6.0, swing based app, processing all document transformation
         requests, command line based tool as well.
 
-        XSLT and XSL-FO for xml transformations to PDF, HTML, PPTX some other XML-based internal formats.
-        Functional, performance and regression testing, No-qa team, X-dev testing, including creation of test cases, suites, etc.
-        Other tech involved SVN, JUnit 4.0, ant 1.8.
-
-        Created value by adding new PPTX format to the transformation service.
-
-        Agile software development methodologies (tool called rallyDev), distributed team between Mexico and USA.
-
-        Technologies used in this stage:
-
-          - Java 6
-          - XSlT, XSL-FO
-          - Junit 4
-          - Swing UI Java library
-          - Docbook
+        - Java 6, XSlT, XSL-FO, Junit 4, Docbook standard format.
 
     - role: Java Developer
       time: Sept 2010 - Sept 2011
       company: Tata consultancy services, Guadalajara
       details: |
-        Real estate webapp.
-
-        Implementing java enterprise frameworks like hibernate, struts2 and spring for configuration and beans injection.
-
-        Working with J2EE, JSP, JSTL, javascript, AJAX technologies for web based applications using servers like tomcat and jboss.
+        Real estate webapp. Hibernate, Struts2 and spring.
 
 projects:
     title: Projects
@@ -273,20 +231,22 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Java (Core, Spring)
-        level: 95%
+      - name: Docker, Kubernetes, Containerized env.
+        level: 80%
 
-      - name: Javascript
+      - name: AWS(S3, ECS, RDS, AppLoadBalancer, ApiGateway, Route53)
+        level: 78%
+
+      - name: Terraform, Packer, Vault, etc.
+        level: 60%
+
+      - name: Java, Kotlin (Spring)
         level: 75%
 
-      - name: Ruby
-        level: 70%
-
-      - name: Ruby on Rails
+      - name: JS, Typescript, ReactJS
         level: 55%
 
-      - name: HTML5 & CSS
-        level: 65%
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
